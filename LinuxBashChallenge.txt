@@ -1,0 +1,53 @@
+    1  ls
+    2  pwd
+    3  mkdir workspace
+    4  cd workspace
+    5  ls
+    6  touch README.md
+    7  cp README.md CHANGELOG.md
+    8  touch exercise.md && mv exercise.md /tmp
+    9  rm /tmp/exercise.md
+   10  touch umuzi.md recruits.md cohort.md
+   11  cat > umuzi.md 
+   12  cat > recruits.md
+   13  cat recruits.md
+   14  cat > umuzi.md 
+   15  cat > cohort.md
+   16  cat cohort.md umuzi.md recruits.md 
+   17  cat > recruits.md 
+   18  cat recruits.md umuzi.md cohort.md
+   19  cat recruits.md umuzi.md cohort.md > summary.md
+   20  cat summary.md
+   21  cat >> summary.md
+   22  cat summary.md
+   23  locate umuzi
+   24  locate umuzi > search_result.md
+   25  cat search_result.md
+   26  touch ~/Documents/pad.md
+   27  cd ~/Desktop
+   28  mkdir work
+   29  cd work
+   30  ls
+   31  cd ..
+   32  cp ~/Documents/pad.md ~/Desktop/work/pad_copy.md
+   33  locate updatedb
+   34  cd ..
+   35  locate pad_copy.md
+   36  updatedb
+   37  sudo updatedb
+   38  locate pad_copy.md
+   39  cd -
+   40  cd ~/workspace
+   41  locate pdf
+   42  locate *.pdf
+   43  locate *.pdftk
+   44  locate *pdf
+   45  locate *pdf > previous.text
+   46  ls
+   47  locate pdf > previous.text
+   48  find . -maxdepth 1 -newermt "2019-10-29"
+   49  nano my_bio.md
+   50  ls
+   51  nano my_files.md && mv my_bio.md my_files.md
+   52  ls
+   53  history 

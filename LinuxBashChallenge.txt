@@ -46,7 +46,7 @@
      2 sudo find / -type f -name "*pdf" > previous.md
      3 find . -maxdepth 1 -newermt "2019-10-29"
      
-   Task 6
+   Task 7
      1 nano my_bio.md
      2 I pressed Ctrl X the y then Enter
      3 mkdir my_files && mv my_bio.md my_files 
